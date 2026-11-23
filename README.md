@@ -1,4 +1,4 @@
-# dnp-rag · Asistente RAG sobre los Planes Nacionales de Desarrollo (2006-2026)
+# Asistente RAG sobre los Planes Nacionales de Desarrollo (2006-2026)
 
 Proyecto del curso de Procesamiento de Lenguaje Natural. Parte del notebook `DNP_NLP_v4.ipynb` y usa las librerías de las clases de RAG
 (S13_2, S14_1 y S14_2). **Equipo:** *A. Rubiano Carlos, Barrios Alexandra*.
