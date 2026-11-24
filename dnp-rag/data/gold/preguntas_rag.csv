@@ -1,0 +1,101 @@
+pregunta,tipo,documento,paginas,notas
+¿Qué metas de vivienda de interés social plantea el PND 2022-2026?,dominio,,,"""BORRADOR: verifica que la respuesta exista en el PDF""; si no está, reemplaza la pregunta. Completa documento (parte del nombre del PDF) y paginas (120;""121 o 120-122)"""
+¿Qué propone el plan 2022-2026 sobre transición energética?,dominio,,,BORRADOR
+¿Qué plantea el plan 2022-2026 sobre reforma agraria y acceso a la tierra?,dominio,,,BORRADOR
+¿Qué estrategias propone el PND 2022-2026 sobre cambio climático y ambiente?,dominio,,,BORRADOR
+¿Qué dice el plan 2022-2026 sobre equidad de género y participación de las mujeres?,dominio,,,BORRADOR
+¿Qué estrategias de cobertura y calidad educativa propone el plan de Duque 2018-2022?,dominio,,,BORRADOR
+¿Qué dice el plan 2018-2022 sobre el catastro multipropósito?,dominio,,,BORRADOR
+¿Qué propone el PND 2018-2022 sobre la economía naranja?,dominio,,,BORRADOR
+¿Cómo se plantea reducir la informalidad laboral en el plan de Santos 2014-2018?,dominio,,,BORRADOR
+¿Qué propone el PND 2014-2018 sobre infraestructura vial y concesiones?,dominio,,,BORRADOR
+¿Qué dice el plan 2014-2018 sobre construcción de paz y posconflicto?,dominio,,,BORRADOR
+¿Qué metas de reducción de pobreza plantea el plan de Santos 2010-2014?,dominio,,,BORRADOR
+¿Qué propone el PND 2010-2014 sobre las locomotoras de crecimiento?,dominio,,,BORRADOR
+¿Qué dice el plan 2010-2014 sobre la política de vivienda y ciudades?,dominio,,,BORRADOR
+¿Qué plantea el PND 2006-2010 sobre seguridad democrática?,dominio,,,BORRADOR
+¿Qué propone el plan 2006-2010 sobre cobertura de salud y aseguramiento?,dominio,,,BORRADOR
+¿Qué dice el PND 2006-2010 sobre desempleo y generación de empleo?,dominio,,,BORRADOR
+¿Qué propone el plan 2006-2010 sobre competitividad y tratados de libre comercio?,dominio,,,BORRADOR
+¿Qué dice el plan 2018-2022 sobre salud y atención de la población migrante?,dominio,,,BORRADOR
+¿Qué plantea el PND 2014-2018 sobre calidad de la educación superior?,dominio,,,BORRADOR
+¿Cuál es la receta tradicional de la bandeja paisa?,fuera,,,fuera de dominio: no necesita documento ni páginas
+¿Quién ganó el último mundial de fútbol?,fuera,,,fuera de dominio
+¿Cómo funciona el protocolo TCP/IP?,fuera,,,fuera de dominio
+¿Cuál es la capital de Mongolia?,fuera,,,fuera de dominio
+¿Cómo se explica la fotosíntesis?,fuera,,,fuera de dominio
+¿Cuánto cuesta hoy un dólar en pesos colombianos?,fuera,,,fuera de dominio
+¿Quién ganó las elecciones presidenciales de Colombia en 2018?,fuera,,,fuera de dominio DIFÍCIL: trata de Colombia pero no del contenido de los planes
+¿Cuál es el salario mínimo mensual vigente?,fuera,,,fuera de dominio DIFÍCIL: tema cercano a los planes pero no es lo que ellos responden
+¿Cuántas instituciones de educación superior o centros de investigación esperaba conectar el PND 2006–2010 a Renata para 2010?,dominio,"PND 2006–2010, tomo I",288,IES significa instituciones de educación superior. Es una meta.
+¿En qué modalidad educativa se propuso invertir en el archipiélago de San Andrés en el PND 2006–2010?,dominio,"PND 2006–2010, tomo II",690,
+¿Entre cuántos salarios mínimos oscilaba el subsidio de vivienda rural para hogares desplazados que se postularan mediante proyectos colectivos en el PND 2006–2010?,dominio,"PND 2006–2010, tomo I",80,Es el rango del subsidio por una sola vez.
+¿Qué dos componentes cubría la cuota mixta de arrendamiento con opción de compra propuesta en el PND 2006–2010?,dominio,"PND 2006–2010, tomo I",186,Canon es el pago del alquiler.
+¿Qué cobertura de vacunación para todas las vacunas fijó como meta para 2010 el PND 2006–2010?,dominio,"PND 2006–2010, tomo I",134,"La línea base del indicador era 87,3%."
+¿Qué hospital nombró el PND 2006–2010 en la acción de implementación de sistemas de calidad en Boyacá?,dominio,"PND 2006–2010, tomo II",690,
+¿A quién ordenó girar directamente el artículo 140 de la Ley 1450 de 2011 los recursos destinados a gratuidad educativa?,dominio,"PND 2010–2014, tomo II",968,Pregunta por el receptor del giro.
+¿Cuál era la meta 2014 de bibliotecarios capacitados en programas de lecto-escritura del PND 2010–2014?,dominio,"PND 2010–2014, tomo I",408,La cifra cuenta bibliotecarios.
+¿Qué dos componentes priorizó el PND 2010–2014 al implementar la Política Nacional de Mejoramiento Integral de Barrios?,dominio,"PND 2010–2014, tomo I",304,Pregunta por dos componentes de la intervención barrial.
+¿Qué dos instrumentos menciona la Ley 1450 de 2011 para destinar vivienda de interés social a arrendamiento o arrendamiento con opción de compra?,dominio,"PND 2010–2014, tomo II",955,La frase identifica los instrumentos citados en el parágrafo.
+¿Qué meta anual de cobertura de vacunación en niños y niñas de un año consignó el PND 2010–2014?,dominio,"PND 2010–2014, tomo I",388,La fila contiene líneas base separadas para triple viral y DPT.
+¿Qué meta fijó el PND 2010–2014 para el porcentaje de nacidos vivos con cuatro o más controles prenatales?,dominio,"PND 2010–2014, tomo I",388,"La línea base indicada es 83,6%."
+"¿Qué instancia propuso constituir el PND 2014–2018 para diseñar y evaluar planes, programas y proyectos de educación rural con enfoque territorial?",dominio,"PND 2014–2018, tomo I",94,
+¿Qué instrumento propuso el PND 2014–2018 para combatir la deserción mediante alimentación escolar y qué periodos adicionales incluyó el PND 2022–2026 en la atención del PAE en regiones priorizadas?,dominio,"PND 2014–2018, tomo I / PND 2022–2026",94 / 117,Receso académico es el descanso del calendario escolar.
+¿Qué permiso dispensa el artículo 99 de la Ley 1753 de 2015 a las viviendas rurales dispersas con soluciones individuales de saneamiento que cumplen el reglamento técnico?,dominio,"PND 2014–2018, tomo II",1137,Vertimientos se refiere a las descargas de aguas residuales.
+¿Qué intervención de vivienda y saneamiento aparece en la lista de proyectos territoriales del PND 2014–2018 junto al Centro de Innovación de TIC y la vía San Gil-Duitama?,dominio,"PND 2014–2018, tomo II",1026,Corresponde a una entrada de la lista de proyectos.
+¿Qué tres tipos de afectaciones busca reducir el PND 2014–2018 al mejorar la salud mental?,dominio,"PND 2014–2018, tomo I",311,La coma tras psicoactivas lleva una llamada a nota al pie en el PDF.
+¿Cuántos biológicos incorporados en el Esquema Nacional de Vacunación fijó como meta para 2018 el PND 2014–2018?,dominio,"PND 2014–2018, tomo I",318,Biológicos designa los productos del esquema. La línea base era 19.
+"¿A qué nivel educativo se dirigen los programas de orientación vocacional del compromiso E29 con comunidades negras, raizales, afrocolombianas y palenqueras en el PND 2018–2022?",dominio,"PND 2018–2022, tomo II",1100,Media designa el nivel previo a la educación superior.
+¿A qué ministerio quedó adscrita la unidad administrativa especial de alimentación escolar creada por el artículo 189 de la Ley 1955 de 2019?,dominio,"PND 2018–2022, tomo II",1872,Adscripción designa la vinculación administrativa de la entidad.
+"¿Qué programa del PND 2018–2022 contempló atender con vivienda urbana nueva o usada, en arrendamiento con opción de compra, a comunidades negras, afrocolombianas, raizales y palenqueras?",dominio,"PND 2018–2022, tomo II",1094,
+"""En las intervenciones sobre barrios, ¿qué instrumento cita el PND 2018–2022 para intervenir asentamientos precarios y qué requisito comunitario establece el PND 2022–2026 para las alternativas priorizadas?""",dominio,"PND 2018–2022, tomo I / PND 2022–2026",369 / 232,PMIB se refiere al Programa de Mejoramiento Integral de Barrios.
+¿Cuál es la meta del PND 2018–2022 para la razón de mortalidad materna a 42 días?,dominio,"PND 2018–2022, tomo I",315,"La unidad es por cada 100.000 nacidos vivos. La línea base es 51,27."
+¿Qué porcentaje de sedes de prestadores públicos con servicios de telemedicina habilitados fijó como meta el PND 2018–2022?,dominio,"PND 2018–2022, tomo I",317,"El indicador cuenta sedes de prestadores públicos. La línea base es 6,51 %."
+¿Qué aspecto prioriza el PND 2022–2026 al proponer hábitos de uso seguro de tecnologías digitales desde la educación temprana?,dominio,PND 2022–2026,119,
+"""En la educación rural del Plan Cuatrienal de Implementación del Acuerdo de Paz del PND 2022–2026, ¿a qué deben ajustarse los currículos que se propone transformar?""",dominio,PND 2022–2026,377,La pregunta se refiere a la pertinencia territorial de los currículos.
+"""Además del arrendamiento y la autogestión, ¿qué opciones vinculadas a materiales y terrenos enumera el PND 2022–2026 para el Subsidio Familiar de Vivienda?""",dominio,PND 2022–2026,232,"La pregunta se refiere a las modalidades enumeradas, sin una cifra."
+¿Qué tres modelos considera el PND 2022–2026 para proveer y mejorar vivienda en centros poblados y en el rural disperso?,dominio,PND 2022–2026,233,Sitio propio es el terreno donde se plantea construir.
+¿Qué encuesta propone actualizar el PND 2022–2026 como parte de las acciones para promover el bienestar mental?,dominio,PND 2022–2026,120,
+¿Qué red propone crear el PND 2022–2026 para promover el bienestar mental?,dominio,PND 2022–2026,120,Mixta forma parte de la descripción de la red en el documento.
+¿Cuál es la capital de Australia?,fuera,,,fuera de dominio
+¿Cuántos planetas tiene el sistema solar?,fuera,,,fuera de dominio
+¿Quién escribió la novela Cien años de soledad?,fuera,,,fuera de dominio
+¿En qué año llegó el ser humano a la Luna por primera vez?,fuera,,,fuera de dominio
+¿Cuál es el río más largo del mundo?,fuera,,,fuera de dominio
+¿Qué elemento químico tiene el símbolo Au?,fuera,,,fuera de dominio
+¿Cuál es la velocidad de la luz en el vacío?,fuera,,,fuera de dominio
+¿Quién pintó La noche estrellada?,fuera,,,fuera de dominio
+¿Cuántos huesos tiene el cuerpo humano adulto?,fuera,,,fuera de dominio
+¿Qué idioma oficial se habla en Brasil?,fuera,,,fuera de dominio
+¿Cuál es la montaña más alta de la Tierra?,fuera,,,fuera de dominio
+¿Qué instrumento mide la presión atmosférica?,fuera,,,fuera de dominio
+¿Qué significa la sigla HTML en desarrollo web?,fuera,,,fuera de dominio
+¿Cuál es la diferencia entre memoria RAM y disco duro?,fuera,,,fuera de dominio
+¿Cómo se prepara un ajiaco santafereño tradicional?,fuera,,,fuera de dominio
+¿Cuántos jugadores tiene un equipo de baloncesto en cancha?,fuera,,,fuera de dominio
+¿Qué es una base de datos relacional?,fuera,,,fuera de dominio
+¿Cómo se calcula el área de un triángulo?,fuera,,,fuera de dominio
+¿Qué vitamina se obtiene principalmente de la exposición al sol?,fuera,,,fuera de dominio
+¿Cuál es la diferencia entre un virus y una bacteria?,fuera,,,fuera de dominio
+¿Qué es el algoritmo de búsqueda binaria?,fuera,,,fuera de dominio
+¿Cómo se hace el café espresso?,fuera,,,fuera de dominio
+¿Cuál es el pronóstico del clima hoy en Bogotá?,fuera,,,fuera de dominio: requiere datos en tiempo real
+¿A cuánto cerró hoy la bolsa de valores de Nueva York?,fuera,,,fuera de dominio: requiere datos en tiempo real
+¿Cuál es el precio actual del barril de petróleo Brent?,fuera,,,fuera de dominio: requiere datos en tiempo real
+¿Qué películas están en cartelera esta semana en Colombia?,fuera,,,fuera de dominio: requiere datos en tiempo real
+¿Cuál es la tasa de usura vigente este mes en Colombia?,fuera,,,fuera de dominio DIFÍCIL: dato financiero vigente fuera de los PND
+¿Cuál es el valor actual de la UVT en Colombia?,fuera,,,fuera de dominio DIFÍCIL: dato tributario vigente fuera de los PND
+¿Cuál es la tasa de cambio representativa del mercado (TRM) de hoy?,fuera,,,fuera de dominio: requiere datos en tiempo real
+¿Qué equipo lidera actualmente la liga profesional de fútbol colombiano?,fuera,,,fuera de dominio: requiere datos en tiempo real
+¿Cuántos departamentos y distritos tiene actualmente Colombia?,fuera,,,fuera de dominio DIFÍCIL: trata de Colombia pero no del contenido de los planes
+¿En qué año se promulgó la actual Constitución Política de Colombia?,fuera,,,fuera de dominio DIFÍCIL: trata de Colombia pero no del contenido de los planes
+¿Cuáles son los requisitos para tramitar el pasaporte colombiano?,fuera,,,fuera de dominio DIFÍCIL: trámite estatal fuera del contenido de los planes
+¿Cómo se liquida la prima de servicios de un trabajador en Colombia?,fuera,,,fuera de dominio DIFÍCIL: normativa laboral general fuera de los planes
+¿Qué funciones cumple la Corte Constitucional de Colombia?,fuera,,,fuera de dominio DIFÍCIL: institucionalidad colombiana fuera de los planes
+¿Cuál es la altura sobre el nivel del mar de la ciudad de Medellín?,fuera,,,fuera de dominio DIFÍCIL: geografía de Colombia fuera de los planes
+¿Quién fue el presidente de Colombia entre 1998 y 2002?,fuera,,,fuera de dominio DIFÍCIL: historia política anterior a los planes analizados
+¿Qué establece el Código Nacional de Tránsito sobre el límite de velocidad en zonas escolares?,fuera,,,fuera de dominio DIFÍCIL: legislación nacional distinta a los PND
+¿Cuántos senadores conforman el Congreso de la República de Colombia?,fuera,,,fuera de dominio DIFÍCIL: estructura del Estado colombiano fuera de los planes
+¿Qué documentos se necesitan para inscribir el RUT ante la DIAN?,fuera,,,fuera de dominio DIFÍCIL: trámite tributario fuera de los planes
+¿Cuál es el horario habitual de atención de los bancos en Colombia?,fuera,,,fuera de dominio DIFÍCIL: tema cotidiano en Colombia fuera de los planes
+¿Qué dice el Plan Nacional de Desarrollo 1994-1998 El Salto Social sobre vivienda?,fuera,,,fuera de dominio DIFÍCIL: menciona un PND fuera del rango 2006-2026

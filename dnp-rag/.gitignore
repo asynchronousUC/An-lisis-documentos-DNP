@@ -1,0 +1,17 @@
+# Datos pesados o que se regeneran con el código (ver README)
+data/pdfs/
+data/corpus/
+data/indice/
+data/resultados/
+# OJO: data/gold/ SÍ se sube (es el trabajo manual del equipo)
+
+# Python / notebooks
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Secretos: nunca subir tokens ni claves
+.env
+*.token

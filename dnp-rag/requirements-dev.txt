@@ -1,0 +1,5 @@
+# Para correr las pruebas:  pip install -r requirements-dev.txt && pytest
+-r requirements.txt
+pytest>=8
+nbformat>=5.9
+ipython>=8
