@@ -19,7 +19,7 @@ muestra anotada por personas y reservada para evaluar.
 3. **Partimos el gold en `dev` y `test`** (`data/gold/split.csv`, congelado). Con `dev` se decide; `test` se mira una sola vez.
 4. **Medimos** hit@k y MRR (con intervalo de confianza), si el sistema rechaza lo que no sabe y, a mano, la calidad de las respuestas (rúbrica de dos personas).
 
-> **Estado actual:** el gold tiene 30 preguntas (30 de dominio y  fuera de dominio) y **todavía les faltan `documento` y `paginas`**. Hasta completarlas no hay
+> **Estado actual:** el gold tiene 100 preguntas (50 de dominio y 50 fuera de dominio) y **todavía les faltan `documento` y `paginas`**. Hasta completarlas no hay
 > resultados de evaluación, y este README no reporta ninguno. Ver `data/gold/README.md`.
 
 ## Cómo funciona
@@ -52,15 +52,15 @@ dnp-rag/
 │   ├── evaluacion.py           # 7. evaluación contra el gold
 │   └── app.py                  # 8. chat con Gradio                       (S14_2)
 ├── tests/                      # pruebas (no necesitan internet ni GPU)
-├── data/gold/                  # LO ÚNICO de data/ que se sube a Git: trabajo manual del equipo
-└── docs/                       # METODOLOGIA.md y PLAN_DE_TRABAJO.md
+├── data/gold/                  # Trabajo manual del equipo
+└── docs/                       # METODOLOGIA.md
 ```
 
 `data/pdfs`, `data/corpus`, `data/indice` y `data/resultados` se regeneran con el código y no se versionan.
 
-## Cómo ejecutarlo en Colab (reproducible)
+## Cómo ejecutar
 
-1. Sube el repositorio a GitHub y abre `notebooks/DNP_RAG_v5.ipynb` en Colab (*Archivo → Abrir cuaderno → GitHub*).
+1. Sube el repositorio a GitHub y abre `notebooks/DNP_RAG_v5.ipynb` en Colab.
 2. *Entorno de ejecución → Cambiar tipo de entorno → GPU T4*.
 3. En la primera celda, cambia `REPO_URL` por la URL del repositorio.
 4. Ejecuta las celdas **en orden**. La primera instala las dependencias (unos minutos) y monta Drive; ahí se guardan PDF, corpus e índice.
@@ -86,7 +86,7 @@ pytest                # IDEA: unas 45 pruebas, sin internet ni GPU; incluyen eje
 | ¿Rechaza lo que no sabe? | % de preguntas «fuera» rechazadas y % de «dominio» rechazadas por error, con un umbral calibrado en `dev` | notebook 6.3 y 6.4 |
 | ¿Son buenas las respuestas? | rúbrica 0-2 (fidelidad, relevancia, citas), dos personas | notebook sección 8 |
 
-Con 20 preguntas de dominio, cada partición tiene solo 10: un 8/10 de aciertos tiene un intervalo de confianza de [0,49 – 0,94]. Es una limitación
+Con 50 preguntas de dominio, cada partición tiene 25: un 40/50 de aciertos tiene un intervalo de confianza de [0,49 – 0,94]. Es una limitación
 que declaramos y que se reduce escribiendo más preguntas (ver `docs/METODOLOGIA.md`).
 
 ## Qué clase usamos para qué
@@ -97,13 +97,13 @@ que declaramos y que se reduce escribiendo más preguntas (ver `docs/METODOLOGIA
 | S14_1 (RAG con LangChain) | `HuggingFaceEmbeddings`, `FAISS`, `HuggingFacePipeline` (TinyLlama), `PromptTemplate` + `RunnablePassthrough` |
 | S14_2 (chatbot) | interfaz de chat con `gradio` |
 
-**Decisiones propias:** modelo de embeddings multilingüe (`multilingual-e5-small`) en vez de `all-MiniLM-L6-v2` (entrenado sobre todo en inglés y con ventana más corta);
+**Decisiones propias:** modelo de embeddings multilingüe (`multilingual-e5-small`) en vez de `all-MiniLM-L6-v2`;
 umbral de similitud calibrado en vez de fijo; filtro por gobierno cuando la pregunta lo nombra.
 
 ## Limitaciones
 
 - Pocas preguntas de evaluación → intervalos de confianza anchos.
-- Las preguntas las escribimos nosotros; idealmente alguien más escribiría una parte.
+- Las preguntas las escribe el equipo.
 - Cada pregunta se responde sola (el chat no recuerda la conversación).
 - TinyLlama (1.100 M de parámetros) responde regular en español; por eso la respuesta por defecto es la extractiva.
 - Las tablas se detectan con una regla y algunas pueden quedar como «párrafos».
