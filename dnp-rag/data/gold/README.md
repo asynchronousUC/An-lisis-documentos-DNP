@@ -1,6 +1,6 @@
 # Gold: preguntas anotadas por el equipo
 
-Este es el trabajo manual del equipo y es la referencia del proyecto (ver `docs/METODOLOGIA.md`).
+Este es la construccion de preguntas y es la referencia del proyecto (ver `docs/METODOLOGIA.md`).
 
 ## Archivos
 
