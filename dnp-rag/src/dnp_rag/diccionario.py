@@ -1,6 +1,6 @@
 """Diccionario de palabras clave por tema (viene de la v4).
 
-ADVERTENCIA METODOLÓGICA: estas etiquetas las produce una REGLA, no una persona. Por eso NO se usan
+Las etiquetas las produce una REGLA, no una persona. Por eso NO se usan
 para entrenar ni evaluar ningún modelo, ni se reporta ninguna "exactitud" contra ellas (esa fue la
 crítica a la v4: un modelo que predice estas etiquetas solo aprende la regla). Aquí sirven únicamente
 para explorar el corpus y como filtro opcional de búsqueda. La calidad del sistema se mide con
